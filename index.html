@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio | Daky345662</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #0d1117; /* Color oscuro tipo GitHub */
+            color: #c9d1d9;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        /* Encabezado */
+        header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        h1 {
+            color: #58a6ff;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            font-size: 1.2em;
+            color: #8b949e;
+        }
+        /* Sección de proyectos */
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .card {
+            background-color: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 10px;
+            padding: 20px;
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            border-color: #58a6ff;
+        }
+        .card h3 {
+            margin-top: 0;
+            color: #f0f6fc;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 8px 16px;
+            background-color: #238636;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .btn:hover {
+            background-color: #2ea043;
+        }
+        /* Footer */
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            padding-top: 20px;
+            border-top: 1px solid #30363d;
+            color: #8b949e;
+        }
+        a {
+            color: #58a6ff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Tu Presentación -->
+        <header>
+            <h1>¡Hola! Soy Daky Fernando</h1>
+            <p class="subtitle">Bienvenido a mi portafolio de proyectos en GitHub.</p>
+            <p>Soy un apasionado por la tecnología y el desarrollo. Aquí puedes ver algunos de los proyectos en los que estoy trabajando.</p>
+        </header>
+
+        <!-- Sección de Proyectos -->
+        <section>
+            <h2>🚀 Mis Proyectos</h2>
+            <div class="projects">
+                
+                <!-- Proyecto 1 -->
+                <div class="card">
+                    <h3>Proyecto 1: Mi Web Personal</h3>
+                    <p>El proyecto que estás viendo ahora mismo, creado con HTML y CSS y alojado gratis en GitHub Pages.</p>
+                    <a href="#" class="btn">Ver Código</a>
+                </div>
+
+                <!-- Proyecto 2 -->
+                <div class="card">
+                    <h3>Proyecto 2: Próximo Proyecto</h3>
+                    <p>Aquí puedes describir un proyecto de programación, una app o un diseño que hayas hecho.</p>
+                    <a href="#" class="btn">Ver Código</a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Pie de página -->
+        <footer>
+            <p>Encuéntrame en <a href="https://github.com/Daky345662" target="_blank">GitHub</a></p>
+            <p>&copy; 2024 Daky345662. Creado con ❤️</p>
+        </footer>
+    </div>
+
+</body>
+</html>
